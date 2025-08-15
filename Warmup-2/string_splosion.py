@@ -1,7 +1,7 @@
 
 # Prendre la première lettre 
-# ensuite rajouter les deux première 
-# ensuite rajouter les 3 première 
+# ensuite rajouter les deux premières 
+# ensuite rajouter les 3 premières 
 # et ainsi de suite.
 
 def string_splosion(str):
@@ -11,7 +11,7 @@ def string_splosion(str):
     new_str = ""
     i = 0 
     while i < length:
-        char = str[:i]
+        char = str[:i+1]
         new_str += char
         i += 1
 
